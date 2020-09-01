@@ -297,7 +297,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                                     weatherList.getWeather().get(z).getDescription(),
                                     weatherList.getWeather().get(z).getIcon(),weatherList.getMain().getTemp().toString(),
                                     weatherList.getMain().getHumidity().toString(),weatherList.getMain().getTempMin().toString(),
-                                    weatherList.getMain().getTempMax().toString(),weatherList.getWind().getSpeed().toString(),
                                     weatherList.getSys().getCountry(),weatherList.getSys().getSunrise().toString(),
                                     weatherList.getSys().getSunset().toString(),weatherList.getName());
 
@@ -308,7 +307,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                                     weatherList.getWeather().get(z).getDescription(),
                                     weatherList.getWeather().get(z).getIcon(),weatherList.getMain().getTemp().toString(),
                                     weatherList.getMain().getHumidity().toString(),weatherList.getMain().getTempMin().toString(),
-                                    weatherList.getMain().getTempMax().toString(),weatherList.getWind().getSpeed().toString(),
                                     weatherList.getSys().getCountry(),weatherList.getSys().getSunrise().toString(),
                                     weatherList.getSys().getSunset().toString(),weatherList.getName());
 
