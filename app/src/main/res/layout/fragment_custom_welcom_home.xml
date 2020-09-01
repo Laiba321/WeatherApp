@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agency.tango.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg2"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/windy" />
+
+        <TextView
+            android:id="@+id/Greeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:fontFamily="cursive"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Good Morning"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_below="@+id/Greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text=" Welcome."
+            android:textSize="17sp" />
+
+
+    </RelativeLayout>
+
+
+</agency.tango.materialintroscreen.parallax.ParallaxLinearLayout>
